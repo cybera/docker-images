@@ -1,4 +1,4 @@
-FROM jwilder/nginx-proxy:0.3.0
+FROM jwilder/nginx-proxy:0.6.0
 
 ADD sources.list /etc/apt/security.sources.list
 RUN apt-get update -o Dir::Etc::SourceList=/etc/apt/security.sources.list
